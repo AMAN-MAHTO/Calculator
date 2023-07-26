@@ -73,7 +73,12 @@ public class MainActivity extends AppCompatActivity
                 return;
         }
         else if (buttonText.equals("C")) {
+            if (!(calutatingText.length() == 0)){
             calutatingText = calutatingText.substring(0,calutatingText.length()-1);
+            if (calutatingText.length()==0){
+                textViewAnswer.setText("0");
+            }}
+
 
         }
         else {
@@ -82,8 +87,7 @@ public class MainActivity extends AppCompatActivity
         textViewInput.setText(calutatingText);
         String finalResult = getResult(calutatingText);
 
-        if (!finalResult.equals("Err")){
-
+        if ((!finalResult.equals("Err")) && (!finalResult.equals("org.mozilla.javascript.Undefined@0"))){
                 textViewAnswer.setText(finalResult);
         }
 

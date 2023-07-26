@@ -5,5 +5,13 @@
          <item name="colorPrimary">@color/themeColor</item>
     </style>
 
+    <style name="buttonnumberlayout">
+        <item name="android:background">@drawable/buttonnumberlayoutlight</item>
+    </style>
+
+    <style name="buttonspeciallayout">
+        <item name="android:background">@drawable/buttonspeciallayoutlight</item>
+    </style>
+
     <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
 </resources>

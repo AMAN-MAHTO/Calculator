@@ -2,6 +2,14 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+         <item name="colorPrimary">@color/themeColor</item>
+        <item name="android:color">@color/themeColor</item>
+    </style>
+
+    <style name="buttonnumberlayout">
+        <item name="android:background">@drawable/buttonnumberlayoutdark</item>
+    </style>
+    <style name="buttonspeciallayout">
+        <item name="android:background">@drawable/buttonspeciallayoutdark</item>
     </style>
 </resources>

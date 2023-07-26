@@ -26,9 +26,9 @@
 
             <android.widget.Button
                 android:id="@+id/Button_C"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="C"
@@ -38,9 +38,9 @@
             <android.widget.Button
                 android:id="@id/Button_left_brac"
 
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="("
@@ -49,9 +49,9 @@
 
             <android.widget.Button
                 android:id="@+id/Button_right_brac"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text=")"
@@ -60,9 +60,9 @@
 
             <android.widget.Button
                 android:id="@+id/Button_plus"
+                style="@style/buttonspeciallayout"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonspeciallayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="+"
@@ -78,9 +78,9 @@
 
             <android.widget.Button
                 android:id="@id/Button_1"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="1"
@@ -90,9 +90,9 @@
             <android.widget.Button
 
                 android:id="@+id/Button_2"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="2"
@@ -101,9 +101,9 @@
 
             <android.widget.Button
                 android:id="@+id/Button_3"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="3"
@@ -113,9 +113,9 @@
 
             <android.widget.Button
                 android:id="@+id/Button_minus"
+                style="@style/buttonspeciallayout"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonspeciallayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="-"
@@ -131,9 +131,9 @@
 
             <android.widget.Button
                 android:id="@+id/Button_4"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="4"
@@ -143,9 +143,9 @@
             <android.widget.Button
 
                 android:id="@+id/Button_5"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="5"
@@ -154,9 +154,9 @@
 
             <android.widget.Button
                 android:id="@+id/Button_6"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="6"
@@ -165,9 +165,9 @@
 
             <android.widget.Button
                 android:id="@+id/Button_multiply"
+                style="@style/buttonspeciallayout"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonspeciallayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="*"
@@ -184,9 +184,9 @@
             <android.widget.Button
 
                 android:id="@+id/Button_7"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="7"
@@ -197,9 +197,9 @@
 
 
                 android:id="@+id/Button_8"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="8"
@@ -208,9 +208,9 @@
 
             <android.widget.Button
                 android:id="@+id/Button_9"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="9"
@@ -219,9 +219,9 @@
 
             <android.widget.Button
                 android:id="@+id/Button_division"
+                style="@style/buttonspeciallayout"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonspeciallayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="/"
@@ -238,9 +238,9 @@
             <android.widget.Button
 
                 android:id="@+id/Button_AC"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif"
                 android:onClick="onClick"
                 android:text="AC"
@@ -251,9 +251,9 @@
             <android.widget.Button
 
                 android:id="@+id/Button_0"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif-condensed"
                 android:onClick="onClick"
                 android:text="0"
@@ -265,9 +265,9 @@
 
 
                 android:id="@+id/Button_dot"
+                style="@style/buttonnumberlayout"
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                android:background="@drawable/buttonnumberlayout"
                 android:fontFamily="sans-serif-condensed"
                 android:onClick="onClick"
                 android:text="."
@@ -276,10 +276,10 @@
 
             <android.widget.Button
                 android:id="@+id/Button_equal"
+                style="@style/buttonspeciallayout"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
                 android:layout_weight="1"
-                android:background="@drawable/buttonspeciallayout"
                 android:fontFamily="sans-serif-condensed"
                 android:onClick="onClick"
                 android:text="="
@@ -292,28 +292,46 @@
     <TextView
         android:id="@+id/textViewAnswer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="110dp"
         android:layout_margin="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginBottom="16dp"
+        android:padding="10dp"
         android:textAlignment="textEnd"
         android:textSize="80sp"
+        app:autoSizeMaxTextSize="80sp"
+        app:autoSizeMinTextSize="24sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="0" />
 
     <TextView
         android:id="@+id/textViewInput"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="110dp"
         android:layout_margin="20dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
         android:textAlignment="textEnd"
         android:textColor="@color/themeColor"
         android:textSize="34sp"
+        app:autoSizeMaxTextSize="26sp"
+        app:autoSizeMinTextSize="20sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textViewAnswer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
