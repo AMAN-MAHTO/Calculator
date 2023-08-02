@@ -12,4 +12,7 @@
     <style name="buttonspeciallayout">
         <item name="android:background">@drawable/buttonspeciallayoutdark</item>
     </style>
+    <style name="answerTextLayout">
+        <item name="android:textColor">@color/white</item>
+    </style>
 </resources>

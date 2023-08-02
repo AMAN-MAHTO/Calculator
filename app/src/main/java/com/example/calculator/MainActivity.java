@@ -1,23 +1,30 @@
 package com.example.calculator;
 
 import android.annotation.SuppressLint;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.view.View;
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
 import android.widget.TextView;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Scriptable;
 
 
+@RequiresApi(api = Build.VERSION_CODES.M)
 public class MainActivity extends AppCompatActivity
 {
     Button button_1,button_2,button_3,button_4,button_5,button_6,button_7,button_8,button_9,button_0;
     Button button_c,button_ac,button_left_brac,button_right_brac,button_multiply,button_dot,button_division,button_plus,button_minus,button_equal;
 
     TextView textViewInput,textViewAnswer;
+    HorizontalScrollView  horizontalScrollViewInput;
+    Vibrator vibrator;
 
 
     @SuppressLint("MissingInflatedId")
@@ -28,6 +35,12 @@ public class MainActivity extends AppCompatActivity
 
         textViewInput = findViewById(R.id.textViewInput);
         textViewAnswer = findViewById(R.id.textViewAnswer);
+        horizontalScrollViewInput = findViewById(R.id.horizontalScrollViewInput);
+        vibrator = (Vibrator)  getSystemService(VIBRATOR_SERVICE);
+
+
+
+
 
 
         assignID(button_1, R.id.Button_1);
@@ -58,9 +71,11 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void onClick(View v) {
+        vibrator.vibrate(100);
         Button button = (Button) v;
         String buttonText = button.getText().toString();
         String calutatingText = textViewInput.getText().toString();
+
 
         if (buttonText.equals("AC")){
             textViewAnswer.setText("0");
@@ -83,6 +98,13 @@ public class MainActivity extends AppCompatActivity
         }
         else {
             calutatingText = calutatingText + buttonText;
+            horizontalScrollViewInput.postDelayed(new Runnable() {
+                public void run() {
+                    horizontalScrollViewInput.fullScroll(HorizontalScrollView.FOCUS_RIGHT);
+                }
+            }, 10L);
+
+
         }
         textViewInput.setText(calutatingText);
         String finalResult = getResult(calutatingText);
